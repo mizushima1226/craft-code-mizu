@@ -1,17 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
-  <title id="title">Craft Code Mizu favicon</title>
-  <desc id="desc">Compact C-shaped water and code icon.</desc>
-  <rect width="64" height="64" rx="14" fill="#FFFFFF"/>
-  <path d="M14 35C10 21 19 10 33 10c7 0 13 2 18 7" fill="none" stroke="#38BDF8" stroke-width="5" stroke-linecap="round"/>
-  <g fill="#1E4E8C">
-    <circle cx="40" cy="23" r="2.4"/>
-    <circle cx="40" cy="30" r="2.4"/>
-    <circle cx="40" cy="37" r="2.4"/>
-  </g>
-  <g fill="#38BDF8">
-    <rect x="46" y="21" width="11" height="4" rx="2"/>
-    <rect x="46" y="28" width="8" height="4" rx="2"/>
-  </g>
-  <path d="M10 43c8-5 15-5 23-1 9 4 17 6 29-1-5 8-17 12-29 7-10-4-16-6-23-5Z" fill="#38BDF8"/>
-  <path d="M11 49c8-3 15-3 23 1 9 4 17 4 27-2-6 8-17 10-27 6-8-4-15-5-23-5Z" fill="#1E4E8C"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+<title id="title">Craft Code Mizu symbol</title><desc id="desc">An abstract C, code nodes, and flowing water lines.</desc>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M183 55A82 82 0 0 0 57 154" stroke="#0EA5E9" stroke-width="18"/>
+  <path d="M40 165c35-24 69-20 101 0 29 18 54 20 78 7-17 28-48 42-82 32-31-9-57-26-97-9" stroke="#38BDF8" stroke-width="13"/>
+  <path d="M47 191c29-12 56-7 84 8 29 16 52 19 76 8-20 25-52 34-82 22-28-11-48-24-78-20" stroke="#163B65" stroke-width="11"/>
+</g>
+<g fill="#163B65"><circle cx="151" cy="104" r="8"/><circle cx="151" cy="128" r="8"/><circle cx="151" cy="152" r="8"/></g>
+<g fill="#38BDF8"><rect x="170" y="98" width="34" height="12" rx="6"/><rect x="170" y="122" width="25" height="12" rx="6"/></g>
 </svg>
