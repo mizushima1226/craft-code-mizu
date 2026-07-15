@@ -75,7 +75,7 @@ pnpm build
 ## 想定される公開 URL
 
 ```
-https://{GitHubユーザー名}.github.io/mizushima-web-studio/
+https://mizushima1226.github.io/craft-code-mizu/
 ```
 
 リポジトリ名を変更した場合は、URL も変わります。
@@ -101,11 +101,11 @@ https://{GitHubユーザー名}.github.io/mizushima-web-studio/
 ```html
 <meta
   property="og:url"
-  content="https://YOUR_GITHUB_USERNAME.github.io/mizushima-web-studio/"
+  content="https://mizushima1226.github.io/craft-code-mizu/"
 />
 <link
   rel="canonical"
-  href="https://YOUR_GITHUB_USERNAME.github.io/mizushima-web-studio/"
+  href="https://mizushima1226.github.io/craft-code-mizu/"
 />
 ```
 
