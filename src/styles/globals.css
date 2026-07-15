@@ -1,0 +1,91 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-brand-50: #f1faff;
+  --color-brand-100: #ddf4fd;
+  --color-brand-200: #bce9f9;
+  --color-brand-300: #83d8f3;
+  --color-brand-400: #39bdeb;
+  --color-brand-500: #20a9df;
+  --color-brand-600: #0878b4;
+  --color-brand-700: #185794;
+  --color-brand-800: #174878;
+  --color-brand-900: #12385f;
+  --color-brand-950: #0b2542;
+
+  --font-sans:
+    'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo',
+    sans-serif;
+  --font-display:
+    'Space Grotesk Variable', 'Hiragino Sans', 'Yu Gothic', sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+
+  body {
+    @apply bg-white font-sans text-slate-700 antialiased;
+  }
+
+  :focus-visible {
+    @apply outline-brand-600 outline-2 outline-offset-2;
+  }
+}
+
+@layer components {
+  .container-main {
+    @apply mx-auto w-full max-w-[1140px] px-4 sm:px-6 lg:px-8;
+  }
+
+  .section-padding {
+    @apply py-16 sm:py-20;
+  }
+
+  .section-heading {
+    @apply font-display text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl;
+  }
+
+  .brand-name {
+    @apply font-display font-semibold tracking-[-0.025em];
+  }
+
+  .section-description {
+    @apply mt-3 max-w-2xl text-base leading-relaxed text-slate-600 sm:text-lg;
+  }
+
+  .btn-primary {
+    @apply bg-brand-600 hover:bg-brand-700 focus-visible:outline-brand-600 inline-flex items-center justify-center rounded-lg px-5 py-2.5 text-sm font-semibold text-white transition-colors;
+  }
+
+  .btn-secondary {
+    @apply hover:border-brand-200 hover:bg-brand-50 hover:text-brand-700 focus-visible:outline-brand-600 inline-flex items-center justify-center rounded-lg border border-slate-200 bg-white px-5 py-2.5 text-sm font-semibold text-slate-700 transition-colors;
+  }
+
+  .card {
+    @apply rounded-xl border border-slate-200 bg-white p-6 shadow-sm;
+  }
+
+  .card-accent {
+    @apply border-brand-100 bg-brand-50/50 rounded-xl border p-6;
+  }
+
+  .tag {
+    @apply inline-flex items-center rounded-md border border-slate-200 bg-slate-50 px-2.5 py-1 text-sm text-slate-700;
+  }
+}
